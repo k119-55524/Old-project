@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: gameplay
+  m_EditorData:
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 1024
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 0
+    platformSettings: []
+    packingParameters:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    packedHash:
+      serializedVersion: 2
+      Hash: 96cbcf425aea47565fd2f3f8026aaeae
+    variantMultiplier: 1
+    bindAsDefault: 1
+    finalFormat: 4
+    hashString: 96cbcf425aea47565fd2f3f8026aaeae
+    totalSpriteSurfaceArea: 231456
+    packables:
+    - {fileID: 102900000, guid: 39131ffd58e80f24087af9211976b30c, type: 3}
+    packedSpriteRenderDataKeys:
+    - 6582d87166e410d41adf5f2dcf6998a5: 21300000
+    - eec324a598647944ba38cb37d56de56b: 21300000
+    - ddd7cb11a56791d4e99d24ff7ac0f0ef: 21300000
+    - 5772db3b39723ac4a85bf0c460c8bdb8: 21300000
+    - 3396aca5f26aa2441947e040b39e0a31: 21300000
+    - 5f7633f01680f7c479298b804cf20295: 21300000
+    - c3cd2c9b0be1a14479bacccdc15d9f42: 21300000
+    - bd93905f03be9b14d9aa5702d7986dbb: 21300000
+    - a289c1b6da2370342b87da3fbc268938: 21300000
+    - da4456d5dcdb10b4aa4fcd3d26b0d260: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 6582d87166e410d41adf5f2dcf6998a5, type: 3}
+  - {fileID: 21300000, guid: eec324a598647944ba38cb37d56de56b, type: 3}
+  - {fileID: 21300000, guid: ddd7cb11a56791d4e99d24ff7ac0f0ef, type: 3}
+  - {fileID: 21300000, guid: 5772db3b39723ac4a85bf0c460c8bdb8, type: 3}
+  - {fileID: 21300000, guid: 3396aca5f26aa2441947e040b39e0a31, type: 3}
+  - {fileID: 21300000, guid: 5f7633f01680f7c479298b804cf20295, type: 3}
+  - {fileID: 21300000, guid: c3cd2c9b0be1a14479bacccdc15d9f42, type: 3}
+  - {fileID: 21300000, guid: bd93905f03be9b14d9aa5702d7986dbb, type: 3}
+  - {fileID: 21300000, guid: a289c1b6da2370342b87da3fbc268938, type: 3}
+  - {fileID: 21300000, guid: da4456d5dcdb10b4aa4fcd3d26b0d260, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - ship5
+  - ship4
+  - ship7
+  - ship6
+  - ship2
+  - ship1
+  - ship3
+  - ship8
+  - star1
+  - star2
+  m_Tag: gameplay
+  m_IsVariant: 0

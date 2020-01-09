@@ -1,0 +1,81 @@
+Log file.
+Message: Inicialise engine RedKid3D: START.
+Message: Load inicialiseApp data: START.
+Message: Load inicialiseApp data: OK.
+Message: Create windows: OK.
+Message: Inicialise 3D graph system: End.
+Message: Create IDXGIFactory1: OK.
+Message: Scan 3D graph system: START.
+Message: Scan 3D graph system: End.
+Message: Find compartible adapter in INI file: OK.
+Message: Find compartible output monitor in INI file: OK.
+Message: Inicialise 3D graph system: End.
+Message: Create compartible DX11 device(D3D_FEATURE_LEVEL_11_0): OK.
+Message: Start create shader: RedKid resource\Shaders\HLSL Shaders.hlsl.
+Message: Compile shader: OK.
+Message: Create Effect: OK.
+Message: GetTechniqueByName(SMAALumaEdgeDetection): OK.
+Message: GetTechniqueByName(RenderLight): OK.
+Message: GetTechniqueByName(SMAABlendingWeightCalculation): OK.
+Message: GetTechniqueByName(SMAANeighborhoodBlending): OK.
+Message: GetTechniqueByName(RenderTexture): OK.
+Message: GetTechniqueByName(RenderTextureBone): OK.
+Message: GetTechniqueByName(RenderLine): OK.
+Message: GetTechniqueByName(RenderInterface): OK.
+Message: Create input g_pInputLayoutLine: OK.
+Message: Create input layoutInterface: OK.
+Message: Create input g_pInputLayoutQuad: OK.
+Message: Create input g_pInputLayoutTexture: OK.
+Message: Create input g_pInputLayoutTextureBone: OK.
+Message: End create shader: RedKid resource\Shaders\HLSL Shaders.hlsl.
+Message: Start create compute shader: RedKid resource\Shaders\CSSceletNormalCopy.hlsl.
+Message: End create compute shader: RedKid resource\Shaders\CSSceletNormalCopy.hlsl.
+Message: Start create compute shader: RedKid resource\Shaders\CSSceletTBNCopy.hlsl.
+Message: End create compute shader: RedKid resource\Shaders\CSSceletTBNCopy.hlsl.
+Message: Start create compute shader: RedKid resource\Shaders\CSSceletNormalAnim.hlsl.
+Message: End create compute shader: RedKid resource\Shaders\CSSceletNormalAnim.hlsl.
+Message: Start create compute shader: RedKid resource\Shaders\CSSceletTBNAnim.hlsl.
+Message: End create compute shader: RedKid resource\Shaders\CSSceletTBNAnim.hlsl.
+Message: Start create compute shader: RedKid resource\Shaders\CS Calc AABB.hlsl.
+Message: End create compute shader: RedKid resource\Shaders\CS Calc AABB.hlsl.
+Message: Start create compute shader: RedKid resource\Shaders\CSSceletNormalAnim.hlsl.
+Message: End create compute shader: RedKid resource\Shaders\CSSceletNormalAnim.hlsl.
+Message: Start create compute shader: RedKid resource\Shaders\CS Calc AABB.hlsl.
+Message: End create compute shader: RedKid resource\Shaders\CS Calc AABB.hlsl.
+Message: Start create compute shader: RedKid resource\Shaders\CS Deffered RenderLight.hlsl.
+Message: End create compute shader: RedKid resource\Shaders\CS Deffered RenderLight.hlsl.
+Message: Start create compute shader: RedKid resource\Shaders\CS Calc SummLum.hlsl.
+Message: End create compute shader: RedKid resource\Shaders\CS Calc SummLum.hlsl.
+Message: Start create compute shader: RedKid resource\Shaders\CS Calc AdaptedLum.hlsl.
+Message: End create compute shader: RedKid resource\Shaders\CS Calc AdaptedLum.hlsl.
+Message: Start create compute shader: RedKid resource\Shaders\CS BloomGaus.hlsl.
+Message: End create compute shader: RedKid resource\Shaders\CS BloomGaus.hlsl.
+Message: Create AreaTexture: START.
+Message: Create SearchTexture: START.
+Message: Inicialise engine RedKid3D: END.
+Message: DirectX Input create: START.
+Message: DirectX Input create: OK.
+Message: User inicialise: START.
+Message: Start read texture file: GameResource\Textures\Generator_000.jpg.
+Message: End read texture file: GameResource\Textures\Generator_000.jpg.
+Message: OK read mesh txt file: GameResource\Mesh\Terrain_000.RM3DT.
+Message: Start read texture file: GameResource\Textures\001.jpg.
+Message: End read texture file: GameResource\Textures\001.jpg.
+Message: OK read mesh txt file: GameResource\Mesh\Sphere.RM3DT.
+Message: Start read texture file: GameResource\Fonts\Font_000.tif.
+Message: End read texture file: GameResource\Fonts\Font_000.tif.
+Message: User inicialise: OK.
+Message: Show window.
+Message: Resize: START.
+Message: +++ Windowed: 665x626.
+Message: Create DepthStencilView: OK.
+Message: Resize different render texture: START.
+Message: Resize different render texture: OK.
+Message: Resize RedKid: START.
+Message: Resize RedKid: End.
+Message: Resize: END.
+Message: Message loop: START.
+Message: Message loop: EXIT.
+Message: Save inicialiseApp data: START.
+Message: Save inicialiseApp data: OK.
+Message: Exit application: OK.

@@ -1,0 +1,31 @@
+﻿Построение начато 21.02.2012 11:54:25.
+     1>Проект "C:\Users\123\Documents\Visual Studio 2010\Projects\RedKidProject\RedKid Dll\RedKid Dll.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\RedKid Dll.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       GenerateTargetFrameworkMonikerAttribute:
+       Целевой объект "GenerateTargetFrameworkMonikerAttribute" пропускается, так как все выходные файлы актуальны по отношению к входным.
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\RedKid Dll.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt "RedKid Dll.cpp" /clr:nostdlib 
+         RedKid Dll.cpp
+         Для всех выходных данных обновления не требуется.
+       ResourceCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\123\Documents\Visual Studio 2010\Projects\RedKidProject\RedKid Engine\Debug\RedKid Dll.dll" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\RedKid Dll.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\123\Documents\Visual Studio 2010\Projects\RedKidProject\RedKid Engine\Debug\RedKid Dll.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL Debug\app.res
+         Debug\AssemblyInfo.obj
+         "Debug\RedKid Dll.obj"
+         Debug\Stdafx.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+            Создается библиотека C:\Users\123\Documents\Visual Studio 2010\Projects\RedKidProject\RedKid Engine\Debug\RedKid Dll.lib и объект C:\Users\123\Documents\Visual Studio 2010\Projects\RedKidProject\RedKid Engine\Debug\RedKid Dll.exp
+         RedKid Dll.vcxproj -> C:\Users\123\Documents\Visual Studio 2010\Projects\RedKidProject\RedKid Engine\Debug\RedKid Dll.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\123\Documents\Visual Studio 2010\Projects\RedKidProject\RedKid Engine\Debug\RedKid Dll.dll;#2" /manifest "Debug\RedKid Dll.dll.intermediate.manifest"
+       FinalizeBuildStatus:
+         Файл "Debug\RedKid Dll.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\RedKid Dll.lastbuildstate".
+     1>Построение проекта "C:\Users\123\Documents\Visual Studio 2010\Projects\RedKidProject\RedKid Dll\RedKid Dll.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:03.23

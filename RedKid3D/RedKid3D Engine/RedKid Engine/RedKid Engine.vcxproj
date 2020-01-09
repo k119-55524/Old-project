@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{91254C7D-7948-42A0-A2FE-0EAA138A8128}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>RedKidEngine</RootNamespace>
+    <ProjectName>RedKid3D Engine</ProjectName>
+    <VCTargetsPath Condition="'$(VCTargetsPath11)' != '' and '$(VSVersion)' == '' and $(VisualStudioVersion) == ''">$(VCTargetsPath11)</VCTargetsPath>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IncludePath>$(DXSDK_DIR)\Samples\C++\Effects11\Inc;$(DXSDK_DIR)Include;E:\Дистрибутив\Программы\Программирование\NVidia\PhysX-3.1.2_PC_VC10_SDK_Core\SDKs\PhysXAPI;E:\Дистрибутив\Программы\Программирование\NVidia\PhysX-3.1.2_PC_VC10_SDK_Core\SDKs\PxFoundation;E:\Дистрибутив\Программы\Программирование\NVidia\PhysX-3.1.2_PC_VC10_SDK_Core\Samples\SampleBase;E:\Дистрибутив\Программы\Программирование\NVidia\PhysX-3.1.2_PC_VC10_SDK_Core\Samples\SampleFramework\framework\include;E:\Дистрибутив\Программы\Программирование\NVidia\PhysX-3.1.2_PC_VC10_SDK_Core\Samples\SampleFramework\renderer\include;E:\Дистрибутив\Программы\Программирование\NVidia\PhysX-3.1.2_PC_VC10_SDK_Core\Samples\PxToolkit\include;E:\Дистрибутив\Программы\Программирование\NVidia\PhysX-3.1.2_PC_VC10_SDK_Core\SDKs\PhysXVisualDebuggerSDK\PVDCommLayer\Public;E:\Дистрибутив\Программы\Программирование\NVidia\PhysX-3.1.2_PC_VC10_SDK_Core\SDKs\PxFoundation\internal\include;E:\Дистрибутив\Программы\Программирование\NVidia\PhysX-3.1.2_PC_VC10_SDK_Core\SDKs\PxTask\include;E:\Дистрибутив\Программы\Программирование\NVidia\PhysX-3.1.2_PC_VC10_SDK_Core\SDKs\PhysXProfileSDK\sdk\include;E:\Дистрибутив\Программы\Программирование\NVidia\PhysX-3.1.2_PC_VC10_SDK_Core\SDKs\PhysXAPI\common;$(IncludePath)</IncludePath>
+    <LibraryPath>$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(DXSDK_DIR)\Samples\C++\Effects11\Inc;$(DXSDK_DIR)Include;E:\Дистрибутив\Программы\Программирование\NVidia\PhysX-3.1.2_PC_VC10_SDK_Core\SDKs\PhysXAPI;E:\Дистрибутив\Программы\Программирование\NVidia\PhysX-3.1.2_PC_VC10_SDK_Core\SDKs\PxFoundation;E:\Дистрибутив\Программы\Программирование\NVidia\PhysX-3.1.2_PC_VC10_SDK_Core\Samples\SampleBase;E:\Дистрибутив\Программы\Программирование\NVidia\PhysX-3.1.2_PC_VC10_SDK_Core\Samples\SampleFramework\framework\include;E:\Дистрибутив\Программы\Программирование\NVidia\PhysX-3.1.2_PC_VC10_SDK_Core\Samples\SampleFramework\renderer\include;E:\Дистрибутив\Программы\Программирование\NVidia\PhysX-3.1.2_PC_VC10_SDK_Core\Samples\PxToolkit\include;E:\Дистрибутив\Программы\Программирование\NVidia\PhysX-3.1.2_PC_VC10_SDK_Core\SDKs\PhysXVisualDebuggerSDK\PVDCommLayer\Public;E:\Дистрибутив\Программы\Программирование\NVidia\PhysX-3.1.2_PC_VC10_SDK_Core\SDKs\PxFoundation\internal\include;E:\Дистрибутив\Программы\Программирование\NVidia\PhysX-3.1.2_PC_VC10_SDK_Core\SDKs\PxTask\include;E:\Дистрибутив\Программы\Программирование\NVidia\PhysX-3.1.2_PC_VC10_SDK_Core\SDKs\PhysXProfileSDK\sdk\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_ITERATOR_DEBUG_LEVEL=0;WIN32;_DEBUG;_LIB;PHYSX_PROFILE_SDK;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <TargetMachine>MachineX86</TargetMachine>
+      <IgnoreSpecificDefaultLibraries>LIBCMT.lib</IgnoreSpecificDefaultLibraries>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_LIB;PHYSX_PROFILE_SDK;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\..\RedKid3D Game\RedKid resource\Shaders\CS BloomGaus.hlsl" />
+    <None Include="..\..\RedKid3D Game\RedKid resource\Shaders\CS Calc AABB.hlsl" />
+    <None Include="..\..\RedKid3D Game\RedKid resource\Shaders\CS Calc AdaptedLum.hlsl" />
+    <None Include="..\..\RedKid3D Game\RedKid resource\Shaders\CS Calc SummLum.hlsl" />
+    <None Include="..\..\RedKid3D Game\RedKid resource\Shaders\CS Deffered RenderLight.hlsl" />
+    <None Include="..\..\RedKid3D Game\RedKid resource\Shaders\CS header.hlsl" />
+    <None Include="..\..\RedKid3D Game\RedKid resource\Shaders\CSSceletNormalAnim.hlsl" />
+    <None Include="..\..\RedKid3D Game\RedKid resource\Shaders\CSSceletNormalCopy.hlsl" />
+    <None Include="..\..\RedKid3D Game\RedKid resource\Shaders\CSSceletTBNAnim.hlsl" />
+    <None Include="..\..\RedKid3D Game\RedKid resource\Shaders\CSSceletTBNCopy.hlsl" />
+    <None Include="..\..\RedKid3D Game\RedKid resource\Shaders\HLSL Deffered RenderLight.hlsl" />
+    <None Include="..\..\RedKid3D Game\RedKid resource\Shaders\HLSL Header.hlsl" />
+    <None Include="..\..\RedKid3D Game\RedKid resource\Shaders\HLSL Interface.hlsl" />
+    <None Include="..\..\RedKid3D Game\RedKid resource\Shaders\HLSL Line.hlsl" />
+    <None Include="..\..\RedKid3D Game\RedKid resource\Shaders\HLSL Quad.hlsl" />
+    <None Include="..\..\RedKid3D Game\RedKid resource\Shaders\HLSL Shaders.hlsl" />
+    <None Include="..\..\RedKid3D Game\RedKid resource\Shaders\HLSL SMAA.hlsl" />
+    <None Include="..\..\RedKid3D Game\RedKid resource\Shaders\MaterialTexture.hlsl" />
+    <None Include="..\..\RedKid3D Game\RedKid resource\Shaders\MaterialTextureBone.hlsl" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RedKid Engine.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AABB.h" />
+    <ClInclude Include="AnimationFrame.h" />
+    <ClInclude Include="AreaTex.h" />
+    <ClInclude Include="ArrayBufferStruct.h" />
+    <ClInclude Include="Bone.h" />
+    <ClInclude Include="BufferConstant.h" />
+    <ClInclude Include="BufferRead.h" />
+    <ClInclude Include="BufferSRV.h" />
+    <ClInclude Include="BufferSRV_UAV.h" />
+    <ClInclude Include="BufferUAV.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="CArray.h" />
+    <ClInclude Include="CList.h" />
+    <ClInclude Include="DXInput.h" />
+    <ClInclude Include="FrustumBox.h" />
+    <ClInclude Include="GameInterface.h" />
+    <ClInclude Include="header.h" />
+    <ClInclude Include="LogFile.h" />
+    <ClInclude Include="ManagerResource.h" />
+    <ClInclude Include="OBB.h" />
+    <ClInclude Include="ObjectBase.h" />
+    <ClInclude Include="ObjectLightDirection.h" />
+    <ClInclude Include="ObjectLightPoint.h" />
+    <ClInclude Include="ObjectMesh.h" />
+    <ClInclude Include="ObjectPhysX.h" />
+    <ClInclude Include="ObjectPhysXConvexDinamicMesh.h" />
+    <ClInclude Include="ObjectPhysXSceletMesh.h" />
+    <ClInclude Include="ObjectPhysXTriangleStaticMesh.h" />
+    <ClInclude Include="ObjectPivot.h" />
+    <ClInclude Include="Plane.h" />
+    <ClInclude Include="PxTkStream.h" />
+    <ClInclude Include="RedKid.h" />
+    <ClInclude Include="RenderPool.h" />
+    <ClInclude Include="ResBase.h" />
+    <ClInclude Include="ResPhysXDinamicConvexMesh.h" />
+    <ClInclude Include="ResMat.h" />
+    <ClInclude Include="ResMatTexture.h" />
+    <ClInclude Include="ResMesh.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="ResourceAnimationScelet.h" />
+    <ClInclude Include="ResourceSceletMesh.h" />
+    <ClInclude Include="ResourceSound.h" />
+    <ClInclude Include="ResourceTexture.h" />
+    <ClInclude Include="ResPhysXSceletMesh.h" />
+    <ClInclude Include="ResPhysXStaticTriangleMesh.h" />
+    <ClInclude Include="ResSound.h" />
+    <ClInclude Include="Scelet.h" />
+    <ClInclude Include="SearchTex.h" />
+    <ClInclude Include="SignMesh.h" />
+    <ClInclude Include="System.h" />
+    <ClInclude Include="TextureRTAndSRV.h" />
+    <ClInclude Include="TextureRT_SRV_UAV.h" />
+    <ClInclude Include="TextureSRV_UAV.h" />
+    <ClInclude Include="Thread.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AABB.cpp" />
+    <ClCompile Include="AnimationFrame.cpp" />
+    <ClCompile Include="Bone.cpp" />
+    <ClCompile Include="BufferConstant.cpp" />
+    <ClCompile Include="BufferRead.cpp" />
+    <ClCompile Include="BufferSRV.cpp" />
+    <ClCompile Include="BufferSRV_UAV.cpp" />
+    <ClCompile Include="BufferUAV.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="DXInput.cpp" />
+    <ClCompile Include="FrustumBox.cpp" />
+    <ClCompile Include="GameInterface.cpp" />
+    <ClCompile Include="LofFile.cpp" />
+    <ClCompile Include="ManagerResource.cpp" />
+    <ClCompile Include="OBB.cpp" />
+    <ClCompile Include="ObjectBase.cpp" />
+    <ClCompile Include="ObjectLightDirection.cpp" />
+    <ClCompile Include="ObjectLightPoint.cpp" />
+    <ClCompile Include="ObjectMesh.cpp" />
+    <ClCompile Include="ObjectPhysX.cpp" />
+    <ClCompile Include="ObjectPhysXConvexDinamicMesh.cpp" />
+    <ClCompile Include="ObjectPhysXSceletMesh.cpp" />
+    <ClCompile Include="ObjectPhysXTriangleStaticMesh.cpp" />
+    <ClCompile Include="ObjectPivot.cpp" />
+    <ClCompile Include="Plane.cpp" />
+    <ClCompile Include="PxTkStream.cpp" />
+    <ClCompile Include="RedKid.cpp" />
+    <ClCompile Include="RenderPool.cpp" />
+    <ClCompile Include="ResBase.cpp" />
+    <ClCompile Include="ResPhysXDinamicConvexMesh.cpp" />
+    <ClCompile Include="ResMat.cpp" />
+    <ClCompile Include="ResMatTexture.cpp" />
+    <ClCompile Include="ResMesh.cpp" />
+    <ClCompile Include="ResourceAnimationScelet.cpp" />
+    <ClCompile Include="ResourceSceletMesh.cpp" />
+    <ClCompile Include="ResourceSound.cpp" />
+    <ClCompile Include="ResourceTexture.cpp" />
+    <ClCompile Include="ResPhysXSceletMesh.cpp" />
+    <ClCompile Include="ResPhysXStaticTriangleMesh.cpp" />
+    <ClCompile Include="ResSound.cpp" />
+    <ClCompile Include="Scelet.cpp" />
+    <ClCompile Include="SignMesh.cpp" />
+    <ClCompile Include="System.cpp" />
+    <ClCompile Include="TextureRTAndSRV.cpp" />
+    <ClCompile Include="TextureRT_SRV_UAV.cpp" />
+    <ClCompile Include="TextureSRV_UAV.cpp" />
+    <ClCompile Include="Thread.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

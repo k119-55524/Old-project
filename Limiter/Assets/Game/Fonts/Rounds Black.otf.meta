@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 71c444a6d059efd4cbfc5e27ad127646
+timeCreated: 1505034678
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Rounds Black
+  fontNames:
+  - Rounds Black
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

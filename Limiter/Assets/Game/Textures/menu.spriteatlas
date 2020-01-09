@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: menu
+  m_EditorData:
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 0
+    platformSettings: []
+    packingParameters:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: c4ecba917990dd84c908c5db0eba9be6, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: ac7d104e3af8c7b408fde18fbaa90c02, type: 3}
+  - {fileID: 21300000, guid: 00206ed0bd2d0cd4b891560f1f90bae4, type: 3}
+  - {fileID: 21300000, guid: 2b538c70e4f9e7e4b826e7b4484bc8cc, type: 3}
+  - {fileID: 21300000, guid: 574ce2df5f0c75f42adae4c2598e6475, type: 3}
+  - {fileID: 21300000, guid: 1fc46a5121e33ba44b0d42b6cb0405dc, type: 3}
+  - {fileID: 21300000, guid: 3570d3342f950174c86f5f7a337f14bd, type: 3}
+  - {fileID: 21300000, guid: d3eb593311b105541a3bbd1b2c470154, type: 3}
+  - {fileID: 21300000, guid: e191394aaf2a11246a0fb3594ddc37d9, type: 3}
+  - {fileID: 21300000, guid: 1efb46e4db060a24c94df8ee0a15f44f, type: 3}
+  - {fileID: 21300000, guid: 7be23e563f10ee74097bfeb84f42ff5f, type: 3}
+  - {fileID: 21300000, guid: 27ed08a206be0a440a18cc29cb36dc42, type: 3}
+  - {fileID: 21300000, guid: a1d5d44d3f4584f42a4eb046257b06d0, type: 3}
+  - {fileID: 21300000, guid: 8c8e69bf44b2e3d4d9673d552edbd1c0, type: 3}
+  - {fileID: 21300000, guid: 0f98a3c38fbdd0345a757c19166827cf, type: 3}
+  - {fileID: 21300000, guid: 7d2da3af23dea894faff520d1b159a73, type: 3}
+  - {fileID: 21300000, guid: 79b787efbaf651d478e5a6b091cca7bf, type: 3}
+  - {fileID: 21300000, guid: a13881a2e39382b4d879f67f4fbffb73, type: 3}
+  - {fileID: 21300000, guid: ff16009bbe09b7544be4a7483db873e2, type: 3}
+  - {fileID: 21300000, guid: ca7b804ea24a19c43ae4a6551c6186d1, type: 3}
+  - {fileID: 21300000, guid: e3ca95aac87b4cd419454f6352926453, type: 3}
+  - {fileID: 21300000, guid: 4010939dc3b3a374baec1de51d1e2358, type: 3}
+  - {fileID: 21300000, guid: edee2d1d2588b124e943d53c2fbf5091, type: 3}
+  - {fileID: 21300000, guid: f9e718956fe21a54a92f97c5ac39409b, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - settings_panel
+  - logo_en
+  - achieve_panel
+  - play_bt
+  - energy_bg_panel
+  - brct 1
+  - energy_line_panel
+  - back_bt
+  - achieve_bt
+  - settings_bt
+  - close_bt
+  - help_bt
+  - about_bt
+  - play_anim
+  - vk_icon
+  - brct
+  - arrow_bt
+  - tw_icon
+  - fb_icon
+  - time_icon
+  - settings_scoll_bt
+  - energy_icon
+  - levels_icon
+  m_Tag: menu
+  m_IsVariant: 0

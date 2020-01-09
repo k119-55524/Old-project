@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - PlayManager
+  - enemy
+  - line
+  - particle
+  - barrier
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Line
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - MyUI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: MyUI
+    uniqueID: 1142099025
+    locked: 0
+  - name: Far layer
+    uniqueID: 3514729647
+    locked: 0
+  - name: barrier
+    uniqueID: 3898573001
+    locked: 0
+  - name: UI
+    uniqueID: 877370209
+    locked: 0
+  - name: KillUFO
+    uniqueID: 2152200605
+    locked: 0
+  - name: Line
+    uniqueID: 110069981
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0

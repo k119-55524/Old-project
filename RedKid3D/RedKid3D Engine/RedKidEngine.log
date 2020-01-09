@@ -1,0 +1,33 @@
+Log file.
+Message: Inicialise engine RedKid3D: START.
+Message: Load inicialiseApp data: START.
+ERROR: File - c:\users\123\documents\visual studio 2010\projects\redkidproject\redkid engine\redkid engine\system.h.
+  - Error line: 43. Func: CSystem::CAppIni::Load.
+  - Error text: No INI file.
+Message: Inicialise INI file: ERROR LOAD.
+Message: Inicialise INI: RESET.
+Message: Create windows: OK.
+Message: Inicialise 3D graph system: End.
+Message: Create IDXGIFactory1: OK.
+Message: Scan 3D graph system: START.
+Message: Scan 3D graph system: End.
+Message: Find compartible adapter in INI file: OK.
+Message: Find compartible output monitor in INI file: OK.
+Message: Inicialise 3D graph system: End.
+Message: Create compartible DX11 device(D3D_FEATURE_LEVEL_11_0): OK.
+Message: Start create shader: RedKid resource\Shaders\MaterialTexture.hlsl.
+ERROR: File - c:\users\123\documents\visual studio 2010\projects\redkidproject\redkid engine\redkid engine\hlslshader.cpp.
+  - Error line: 60. Func: CHLSLShader::Inicialise.
+  - Error text: Error D3DX11CompileFromFile.
+ERROR: File - c:\users\123\documents\visual studio 2010\projects\redkidproject\redkid engine\redkid engine\system.cpp.
+  - Error line: 266. Func: CSystem::Inicialise3D.
+  - Error text: Error!!!
+ERROR: File - c:\users\123\documents\visual studio 2010\projects\redkidproject\redkid engine\redkid engine\system.cpp.
+  - Error line: 169. Func: CSystem::Inicialise.
+  - Error text: Error!!!
+ERROR: File - c:\users\123\documents\visual studio 2010\projects\redkidproject\redkid engine\redkid engine\redkid.cpp.
+  - Error line: 32. Func: CRedKid::Inicialise.
+  - Error text: Error!!!
+ERROR: File - c:\users\123\documents\visual studio 2010\projects\redkidproject\reddoggame\reddoggame.cpp.
+  - Error line: 7. Func: wWinMain.
+  - Error text: Error!!!

@@ -1,0 +1,37 @@
+﻿Построение начато 25.02.2012 13:54:25.
+     1>Проект "C:\Users\123\Documents\Visual Studio 2010\Projects\RedKid3D\RedKid3D Dll\RedKid Dll.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Обращение к "Release\RedKid3D Dll.unsuccessfulbuild".
+       GenerateTargetFrameworkMonikerAttribute:
+       Целевой объект "GenerateTargetFrameworkMonikerAttribute" пропускается, так как все выходные файлы актуальны по отношению к входным.
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         Для всех выходных данных обновления не требуется.
+         Для всех выходных данных обновления не требуется.
+       ResourceCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\123\Documents\Visual Studio 2010\Projects\RedKid3D\RedKid3D Editor\Release\RedKid3D Dll.dll" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"Release\RedKid3D Dll.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\123\Documents\Visual Studio 2010\Projects\RedKid3D\RedKid3D Editor\Release\RedKid3D Dll.pdb" /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL Release\app.res
+         Release\AssemblyInfo.obj
+         Release\PhysXDefaultAllocator.obj
+         Release\PhysXErrorCallback.obj
+         "Release\RedKid Dll.obj"
+         Release\Stdafx.obj
+         "Release\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+            Создается библиотека C:\Users\123\Documents\Visual Studio 2010\Projects\RedKid3D\RedKid3D Editor\Release\RedKid3D Dll.lib и объект C:\Users\123\Documents\Visual Studio 2010\Projects\RedKid3D\RedKid3D Editor\Release\RedKid3D Dll.exp
+     1>RedKid Dll.obj : error LNK2028: ссылка на неразрешенную лексему (0A000873) "public: void __thiscall CRedKid::Release(void)" (?Release@CRedKid@@$$FQAEXXZ) в функции "extern "C" void __cdecl Release(void)" (?Release@@$$J0YAXXZ)
+     1>RedKid Dll.obj : error LNK2020: неразрешенная лексема (0A000874) "class CRedKid RedKid" (?RedKid@@3VCRedKid@@A)
+     1>RedKid Dll.obj : error LNK2028: ссылка на неразрешенную лексему (0A000875) "public: long __thiscall CRedKid::InicialiseForEditor(struct HWND__ *,class physx::PxDefaultAllocator &,class physx::pubfnd3::PxErrorCallback &)" (?InicialiseForEditor@CRedKid@@$$FQAEJPAUHWND__@@AAVPxDefaultAllocator@physx@@AAVPxErrorCallback@pubfnd3@4@@Z) в функции "extern "C" bool __cdecl Inicialise(void *)" (?Inicialise@@$$J0YA_NPAX@Z)
+     1>RedKid Dll.obj : error LNK2020: неразрешенная лексема (0A0008A1) "class CSystem SystemRedKid" (?SystemRedKid@@3VCSystem@@A)
+     1>RedKid Dll.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: long __thiscall CRedKid::InicialiseForEditor(struct HWND__ *,class physx::PxDefaultAllocator &,class physx::pubfnd3::PxErrorCallback &)" (?InicialiseForEditor@CRedKid@@$$FQAEJPAUHWND__@@AAVPxDefaultAllocator@physx@@AAVPxErrorCallback@pubfnd3@4@@Z) в функции "extern "C" bool __cdecl Inicialise(void *)" (?Inicialise@@$$J0YA_NPAX@Z)
+     1>RedKid Dll.obj : error LNK2001: неразрешенный внешний символ ""class CRedKid RedKid" (?RedKid@@3VCRedKid@@A)"
+     1>RedKid Dll.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __thiscall CRedKid::Release(void)" (?Release@CRedKid@@$$FQAEXXZ) в функции "extern "C" void __cdecl Release(void)" (?Release@@$$J0YAXXZ)
+     1>RedKid Dll.obj : error LNK2019: ссылка на неразрешенный внешний символ "protected: long __thiscall CSystem::FrameRender(void)" (?FrameRender@CSystem@@IAEJXZ) в функции "public: long __thiscall CRedKid::RenderForEditor(void)" (?RenderForEditor@CRedKid@@QAEJXZ)
+     1>RedKid Dll.obj : error LNK2001: неразрешенный внешний символ ""class CSystem SystemRedKid" (?SystemRedKid@@3VCSystem@@A)"
+     1>RedKid Dll.obj : error LNK2019: ссылка на неразрешенный внешний символ "protected: long __thiscall CSystem::Resize(void)" (?Resize@CSystem@@IAEJXZ) в функции "public: long __thiscall CRedKid::ResizeForEditor(void)" (?ResizeForEditor@CRedKid@@QAEJXZ)
+     1>C:\Users\123\Documents\Visual Studio 2010\Projects\RedKid3D\RedKid3D Editor\Release\RedKid3D Dll.dll : fatal error LNK1120: 10 неразрешенных внешних элементов
+     1>Построение проекта "C:\Users\123\Documents\Visual Studio 2010\Projects\RedKid3D\RedKid3D Dll\RedKid Dll.vcxproj" завершено (целевые объекты build) с ошибкой.
+
+СБОЙ построения.
+
+Затраченное время: 00:00:00.42

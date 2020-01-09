@@ -1,0 +1,10 @@
+﻿Build started 03.04.2012 19:43:26.
+     1>Project "C:\Users\k119\Documents\Visual Studio 11\Projects\2010\RedKid3D\RedKid3D 3DS Max Export PlugIn\RM3DPlug.vcxproj" on node 2 (Build target(s)).
+     1>PrepareForBuild:
+         Creating directory "F:\Development\Tools\Autodesk\3ds Max 2009\plugins\".
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(349,5): error MSB3191: Unable to create directory "F:\Development\Tools\Autodesk\3ds Max 2009\plugins\". Could not find a part of the path 'F:\Development\Tools\Autodesk\3ds Max 2009\plugins\'.
+     1>Done Building Project "C:\Users\k119\Documents\Visual Studio 11\Projects\2010\RedKid3D\RedKid3D 3DS Max Export PlugIn\RM3DPlug.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.00

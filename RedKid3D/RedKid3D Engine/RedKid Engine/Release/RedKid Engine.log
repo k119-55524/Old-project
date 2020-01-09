@@ -1,0 +1,115 @@
+﻿Построение начато 25.02.2012 13:48:47.
+     1>Проект "C:\Users\123\Documents\Visual Studio 2010\Projects\RedKid3D\RedKid3D Engine\RedKid Engine\RedKid Engine.vcxproj" в узле 2 (целевые объекты rebuild).
+     1>_PrepareForClean:
+         Файл "Release\RedKid3D Engine.lastbuildstate" удаляется.
+       InitializeBuildStatus:
+         Создание "Release\RedKid3D Engine.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob2 /Oi /Oy- /GT /GL /D NDEBUG /D WIN32 /D _LIB /D PHYSX_PROFILE_SDK /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS- /Gy /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AABB.cpp AnimationFrame.cpp Bone.cpp BufferConstant.cpp BufferRead.cpp BufferSRV.cpp BufferSRV_UAV.cpp BufferUAV.cpp Camera.cpp DXInput.cpp FrustumBox.cpp GameInterface.cpp LofFile.cpp ManagerResource.cpp ObjectBase.cpp ObjectLightDirection.cpp ObjectLightPoint.cpp ObjectMesh.cpp ObjectPhysX.cpp ObjectPhysXConvexDinamicMesh.cpp ObjectPhysXSceletMesh.cpp ObjectPhysXTriangleStaticMesh.cpp ObjectPivot.cpp Plane.cpp PxTkStream.cpp RedKid.cpp RenderPool.cpp ResBase.cpp ResPhysXDinamicConvexMesh.cpp ResMat.cpp ResMatTexture.cpp ResMesh.cpp ResourceAnimationScelet.cpp ResourceSceletMesh.cpp ResourceSound.cpp ResourceTexture.cpp ResPhysXSceletMesh.cpp ResPhysXStaticTriangleMesh.cpp ResSound.cpp Scelet.cpp SignMesh.cpp System.cpp TextureRTAndSRV.cpp TextureRT_SRV_UAV.cpp TextureSRV_UAV.cpp Thread.cpp
+         AABB.cpp
+         AnimationFrame.cpp
+         Bone.cpp
+         BufferConstant.cpp
+         BufferRead.cpp
+         BufferSRV.cpp
+         BufferSRV_UAV.cpp
+         BufferUAV.cpp
+         Camera.cpp
+         DXInput.cpp
+         FrustumBox.cpp
+         GameInterface.cpp
+         LofFile.cpp
+         ManagerResource.cpp
+         ObjectBase.cpp
+         ObjectLightDirection.cpp
+         ObjectLightPoint.cpp
+         ObjectMesh.cpp
+         ObjectPhysX.cpp
+         ObjectPhysXConvexDinamicMesh.cpp
+         Компиляция...
+         ObjectPhysXSceletMesh.cpp
+         ObjectPhysXTriangleStaticMesh.cpp
+         ObjectPivot.cpp
+         Plane.cpp
+         PxTkStream.cpp
+         RedKid.cpp
+         RenderPool.cpp
+         ResBase.cpp
+         ResPhysXDinamicConvexMesh.cpp
+         ResMat.cpp
+         ResMatTexture.cpp
+         ResMesh.cpp
+         ResourceAnimationScelet.cpp
+         ResourceSceletMesh.cpp
+         ResourceSound.cpp
+         ResourceTexture.cpp
+         ResPhysXSceletMesh.cpp
+         ResPhysXStaticTriangleMesh.cpp
+         ResSound.cpp
+         Scelet.cpp
+         Компиляция...
+         SignMesh.cpp
+         System.cpp
+         TextureRTAndSRV.cpp
+         TextureRT_SRV_UAV.cpp
+         TextureSRV_UAV.cpp
+         Thread.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\RedKid Engine.res" "RedKid Engine.rc" 
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\123\Documents\Visual Studio 2010\Projects\RedKid3D\RedKid3D Editor\Release\RedKid3D Engine.lib" /NOLOGO /MACHINE:X86 /LTCG "Release\RedKid Engine.res"
+         Release\AABB.obj
+         Release\AnimationFrame.obj
+         Release\Bone.obj
+         Release\BufferConstant.obj
+         Release\BufferRead.obj
+         Release\BufferSRV.obj
+         Release\BufferSRV_UAV.obj
+         Release\BufferUAV.obj
+         Release\Camera.obj
+         Release\DXInput.obj
+         Release\FrustumBox.obj
+         Release\GameInterface.obj
+         Release\LofFile.obj
+         Release\ManagerResource.obj
+         Release\ObjectBase.obj
+         Release\ObjectLightDirection.obj
+         Release\ObjectLightPoint.obj
+         Release\ObjectMesh.obj
+         Release\ObjectPhysX.obj
+         Release\ObjectPhysXConvexDinamicMesh.obj
+         Release\ObjectPhysXSceletMesh.obj
+         Release\ObjectPhysXTriangleStaticMesh.obj
+         Release\ObjectPivot.obj
+         Release\Plane.obj
+         Release\PxTkStream.obj
+         Release\RedKid.obj
+         Release\RenderPool.obj
+         Release\ResBase.obj
+         Release\ResPhysXDinamicConvexMesh.obj
+         Release\ResMat.obj
+         Release\ResMatTexture.obj
+         Release\ResMesh.obj
+         Release\ResourceAnimationScelet.obj
+         Release\ResourceSceletMesh.obj
+         Release\ResourceSound.obj
+         Release\ResourceTexture.obj
+         Release\ResPhysXSceletMesh.obj
+         Release\ResPhysXStaticTriangleMesh.obj
+         Release\ResSound.obj
+         Release\Scelet.obj
+         Release\SignMesh.obj
+         Release\System.obj
+         Release\TextureRTAndSRV.obj
+         Release\TextureRT_SRV_UAV.obj
+         Release\TextureSRV_UAV.obj
+         Release\Thread.obj
+         RedKid Engine.vcxproj -> C:\Users\123\Documents\Visual Studio 2010\Projects\RedKid3D\RedKid3D Editor\Release\RedKid3D Engine.lib
+       FinalizeBuildStatus:
+         Файл "Release\RedKid3D Engine.unsuccessfulbuild" удаляется.
+         Обращение к "Release\RedKid3D Engine.lastbuildstate".
+     1>Построение проекта "C:\Users\123\Documents\Visual Studio 2010\Projects\RedKid3D\RedKid3D Engine\RedKid Engine\RedKid Engine.vcxproj" завершено (целевые объекты rebuild).
+
+Построение успешно завершено.
+
+Затраченное время: 00:01:01.94

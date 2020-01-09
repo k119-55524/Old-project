@@ -1,0 +1,230 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Русский (Россия) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLG_EXPORT DIALOGEX 0, 0, 526, 297
+STYLE DS_SETFONT | DS_MODALFRAME | DS_SETFOREGROUND | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU
+CAPTION "RedKid 3DS Max 2012 PlugIn exports. 2012. V4.0.0."
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Export",ID_EXPORT,432,186,92,84
+    PUSHBUTTON      "Exit",ID_EXIT,432,276,92,14
+    LTEXT           "File name:",IDC_STATIC_00,6,6,36,8
+    LTEXT           ":)",IDC_FILE_NAME,42,6,480,8
+    LTEXT           "Total mesh:",IDC_STATIC_01,6,24,42,8
+    LTEXT           "0",ID_TOTAL_MESH,48,24,60,8
+    LISTBOX         IDC_LIST_MESH,6,36,120,234,LBS_SORT | LBS_NOINTEGRALHEIGHT | LBS_EXTENDEDSEL | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Select all",ID_SEL_ALL_MESH,6,276,120,14
+    LISTBOX         IDC_LIST_EXP_MESH,198,36,120,234,LBS_SORT | LBS_NOINTEGRALHEIGHT | LBS_EXTENDEDSEL | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Select all",ID_SEL_ALL_EXP_MESH,198,276,120,14
+    PUSHBUTTON      ">>",IDC_ADD_EXP_MESH,132,36,60,42
+    PUSHBUTTON      "All >>",IDC_ADD_ALL_EXP_MESH,132,84,60,42
+    PUSHBUTTON      "All <<",IDC_DEL_ALL_EXP_MESH,132,228,60,42
+    PUSHBUTTON      "<<",IDC_DEL_EXP_MESH,132,180,60,42
+    LTEXT           "Total export mesh:",IDC_STATIC_02,198,24,66,8
+    LTEXT           "0",ID_TOTAL_EXP_MESH,264,24,54,8
+    GROUPBOX        "Selected mesh data",IDC_STATIC,324,33,198,147,0,WS_EX_TRANSPARENT
+    LTEXT           "Name:",IDC_STATIC_03,330,48,24,8
+    LTEXT           "--- NoName ---",ID_SEL_MESH_NAME,354,48,162,8
+    LTEXT           "Bone count(scelet):",IDC_STATIC_04,330,84,66,8
+    LTEXT           "No",ID_YN_TEXTCOORD,396,72,18,8
+    LTEXT           "TextCoord(uvw):",IDC_STATIC_05,330,72,60,8
+    LTEXT           "0",ID_BONE_COUNT,396,84,36,8
+    LTEXT           "Vertex count:",IDC_STATIC_06,330,60,66,8
+    LTEXT           "0",ID_VERTEX_COUNT,396,60,36,8
+    GROUPBOX        "Global setup",IDC_STATIC,324,180,102,102,0,WS_EX_TRANSPARENT
+    CONTROL         "Export mesh",ID_CH_EXPMESH,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,330,192,56,10
+    CONTROL         "Export uvw",ID_CH_EXPUVW,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,336,228,53,10
+    CONTROL         "Export TangBinor",ID_CH_EXPTB,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,342,216,66,10
+    CONTROL         "Export scelet",ID_CH_EXPSCELET,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,330,258,58,10
+    CONTROL         "Export scelet animation",ID_CH_EXPSCELETMESH,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,330,270,91,10
+    LTEXT           "Start frame:",IDC_STATIC_5,348,96,42,8
+    LTEXT           "End frame:",IDC_STATIC_6,348,108,42,8
+    LTEXT           "0",IDC_START_SC_FRAME,420,96,30,8,WS_DISABLED
+    LTEXT           "0",IDC_END_SC_FRAME,420,108,30,8,WS_DISABLED
+    PUSHBUTTON      "<",IDC_PSF,390,96,12,12,WS_DISABLED
+    PUSHBUTTON      "<",IDC_PEF,390,108,12,12,WS_DISABLED
+    PUSHBUTTON      ">",IDC_NSF,402,96,12,12,WS_DISABLED
+    PUSHBUTTON      ">",IDC_NEF,402,108,12,12,WS_DISABLED
+    PUSHBUTTON      "Clear",IDC_SC_FRAME_CLEAR,456,96,42,12,WS_DISABLED
+    CONTROL         "Scelet data",ID_CH_EXPSCDAT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,336,240,52,10
+    CONTROL         "Export Normal",ID_CH_EXPNORM,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,336,204,61,10
+    PUSHBUTTON      "?",IDC_HELP_BUTTON,504,18,14,14
+END
+
+IDD_DLG_EXP_PROC DIALOGEX 0, 0, 316, 63
+STYLE DS_SETFONT | DS_MODALFRAME | DS_SETFOREGROUND | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Export process."
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Stop Export",ID_STOP_EXP,216,36,93,20
+    LTEXT           "---",IDC_EXP_NAME,6,6,300,8
+    LTEXT           "---",IDC_EXP_FACE,6,18,300,8
+END
+
+IDD_DLG_HELP DIALOGEX 0, 0, 412, 195
+STYLE DS_SETFONT | DS_MODALFRAME | DS_SETFOREGROUND | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Help. RedMax3D.com. 2012."
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "[Start_Mesh_block]",IDC_STATIC,12,12,63,8
+    LTEXT           "[Start_Mesh_block]",IDC_STATIC,12,180,63,8
+    LTEXT           "[Start_Index_Block]",IDC_STATIC,18,144,65,8
+    LTEXT           "[End_Index_Block]",IDC_STATIC,18,168,61,8
+    LTEXT           ".......(count ref bones)",IDC_STATIC,30,120,76,8
+    LTEXT           ".......",IDC_STATIC,18,24,20,8
+    LTEXT           "x,y,z positoin(float)",IDC_STATIC,18,36,64,8
+    LTEXT           "x,y,z normal(float)",IDC_STATIC,18,48,61,8
+    LTEXT           "x,y,z tangent(float)",IDC_STATIC,18,60,65,8
+    LTEXT           "x,y,z binormal(float)",IDC_STATIC,18,72,66,8
+    LTEXT           "UV coordinates(float)",IDC_STATIC,18,84,69,8
+    LTEXT           "Count ref bones(UINT)",IDC_STATIC,18,96,74,8
+    LTEXT           "Num ref bones(UINT)  Force bone(float)",IDC_STATIC,30,108,129,8
+    GROUPBOX        "Text file mesh block format",IDC_STATIC,6,0,162,192
+    LTEXT           ".......",IDC_STATIC,18,132,20,8
+    LTEXT           ".......",IDC_STATIC,30,156,20,8
+    GROUPBOX        "Text file scelet block format",IDC_STATIC,174,0,234,108
+    LTEXT           "[Start_Scelet_Block]",IDC_STATIC,180,18,66,8
+    LTEXT           "[End_Scelet_Block]",IDC_STATIC,180,66,62,8
+    LTEXT           ".......",IDC_STATIC,192,30,20,8
+    LTEXT           "NameBone(string)   NumBone(UINT)   NumParentBone(UINT)",IDC_STATIC,192,42,194,8
+    LTEXT           ".......",IDC_STATIC,192,54,20,8
+    LTEXT           "REM: If NumParentBone == -1  -  global parent bone.",IDC_STATIC,180,84,216,8
+    GROUPBOX        "Text file scelet animation block format",IDC_STATIC,174,114,234,78
+    LTEXT           "x,y,z bone positoin(move of start pose) in frame(float)",IDC_STATIC,192,150,176,8
+    LTEXT           ".......",IDC_STATIC,192,138,20,8
+    LTEXT           "x,y,z,w bone rotation(move of start pose) in frame(Quaternion)",IDC_STATIC,192,162,206,8
+    LTEXT           "[Start_Scelet_Animation_Block]",IDC_STATIC,180,126,101,8
+    LTEXT           "[End_Scelet_Animation_Block]",IDC_STATIC,180,174,97,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DLG_EXPORT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 519
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 290
+    END
+
+    IDD_DLG_EXP_PROC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 56
+    END
+
+    IDD_DLG_HELP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 405
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 188
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Русский (Россия) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Английский (США) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_LIBDESCRIPTION      "Exports mesh"
+    IDS_CATEGORY            "Exporter"
+    IDS_CLASS_NAME          "RedKid PlugIn"
+END
+
+#endif    // Английский (США) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

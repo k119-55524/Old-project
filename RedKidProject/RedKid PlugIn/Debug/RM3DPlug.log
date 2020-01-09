@@ -1,0 +1,30 @@
+﻿Построение начато 21.02.2012 10:40:10.
+     1>Проект "C:\Users\123\Documents\Visual Studio 2010\Projects\RedKidProject\RedKid PlugIn\RM3DPlug.vcxproj" в узле 3 (целевые объекты rebuild).
+     1>_PrepareForClean:
+         Файл ".\Debug\RedKidPlugIn.lastbuildstate" удаляется.
+       InitializeBuildStatus:
+         Обращение к ".\Debug\RedKidPlugIn.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\midl\Win32 /I"C:\Program Files\Autodesk\Autodesk 3ds Max 2012 SDK\maxsdk\include" /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_DEPRECATE /D ISOLATION_AWARE_ENABLED=1 /D _WINDLL /Gm- /EHa /MDd /GS /arch:SSE /fp:fast /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd"C:\Users\123\Documents\Visual Studio 2010\Projects\RedKidProject\RedKid PlugIn\RedKidPlugIn.dle.pdb" /Gd /TP /analyze- /FC /errorReport:prompt DllEntry.cpp RedKidPlugIn.cpp Skeleton.cpp WndBase.cpp WndButton.cpp WndCheckBox.cpp WndListBox.cpp WndStaticText.cpp
+         DllEntry.cpp
+     1>c:\users\123\documents\visual studio 2010\projects\redkidproject\redkid plugin\header.h(3): fatal error C1083: Не удается открыть файл включение: Max.h: No such file or directory
+         RedKidPlugIn.cpp
+     1>c:\users\123\documents\visual studio 2010\projects\redkidproject\redkid plugin\header.h(3): fatal error C1083: Не удается открыть файл включение: Max.h: No such file or directory
+         Skeleton.cpp
+     1>c:\users\123\documents\visual studio 2010\projects\redkidproject\redkid plugin\header.h(3): fatal error C1083: Не удается открыть файл включение: Max.h: No such file or directory
+         WndBase.cpp
+     1>c:\users\123\documents\visual studio 2010\projects\redkidproject\redkid plugin\header.h(3): fatal error C1083: Не удается открыть файл включение: Max.h: No such file or directory
+         WndButton.cpp
+     1>c:\users\123\documents\visual studio 2010\projects\redkidproject\redkid plugin\header.h(3): fatal error C1083: Не удается открыть файл включение: Max.h: No such file or directory
+         WndCheckBox.cpp
+     1>c:\users\123\documents\visual studio 2010\projects\redkidproject\redkid plugin\header.h(3): fatal error C1083: Не удается открыть файл включение: Max.h: No such file or directory
+         WndListBox.cpp
+     1>c:\users\123\documents\visual studio 2010\projects\redkidproject\redkid plugin\header.h(3): fatal error C1083: Не удается открыть файл включение: Max.h: No such file or directory
+         WndStaticText.cpp
+     1>c:\users\123\documents\visual studio 2010\projects\redkidproject\redkid plugin\header.h(3): fatal error C1083: Не удается открыть файл включение: Max.h: No such file or directory
+         Создание кода...
+     1>Построение проекта "C:\Users\123\Documents\Visual Studio 2010\Projects\RedKidProject\RedKid PlugIn\RM3DPlug.vcxproj" завершено (целевые объекты rebuild) с ошибкой.
+
+СБОЙ построения.
+
+Затраченное время: 00:00:01.10

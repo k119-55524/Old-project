@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Limiter", "Limiter.csproj", "{66E19C9B-94DA-5F92-7AFD-B86AE2FF154A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Limiter.Plugins", "Limiter.Plugins.csproj", "{6E065F89-C7FB-7BA0-E2F2-CFAF862467B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Limiter.Editor", "Limiter.Editor.csproj", "{D3DED03A-107F-D20E-0A76-896B29814259}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66E19C9B-94DA-5F92-7AFD-B86AE2FF154A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66E19C9B-94DA-5F92-7AFD-B86AE2FF154A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66E19C9B-94DA-5F92-7AFD-B86AE2FF154A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66E19C9B-94DA-5F92-7AFD-B86AE2FF154A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E065F89-C7FB-7BA0-E2F2-CFAF862467B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E065F89-C7FB-7BA0-E2F2-CFAF862467B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E065F89-C7FB-7BA0-E2F2-CFAF862467B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E065F89-C7FB-7BA0-E2F2-CFAF862467B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3DED03A-107F-D20E-0A76-896B29814259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3DED03A-107F-D20E-0A76-896B29814259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3DED03A-107F-D20E-0A76-896B29814259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3DED03A-107F-D20E-0A76-896B29814259}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

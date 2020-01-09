@@ -1,0 +1,22 @@
+{
+	"energyAddADS":"100",
+	"advertisingCount":"5",
+	"levelTimeLimit":"90",
+	
+	"timeReward":"5",
+	"timeInstantUFO":"5",
+	"numKillUFOInLevel":"5",
+	"maxUFOInLevel":"10",
+	
+	"startLevelBarrier":"0",
+	
+	"maxEnergy":"500",
+	"startEnergy":"500",
+	"energyAdd":"30",
+	"maxLineObjects":"4",
+	"timeToDestroyLine":"5",
+	
+	"percentAddUFO":"10",
+	"percentDecInstUFO":"5"
+	"percentDecTime":"5"	
+}

@@ -1,0 +1,88 @@
+﻿  AABB.cpp
+  AnimationFrame.cpp
+  Bone.cpp
+  BufferConstant.cpp
+  BufferRead.cpp
+  BufferSRV.cpp
+  BufferSRV_UAV.cpp
+  BufferUAV.cpp
+d:\users\dmitriy\documents\visual studio 2013\projects\старые проекты\2010\redkidproject\redkid engine\redkid engine\header.h(43): fatal error C1083: Не удается открыть файл включение: D3DX11tex.h: No such file or directory, (компилируется исходный файл BufferRead.cpp)
+d:\users\dmitriy\documents\visual studio 2013\projects\старые проекты\2010\redkidproject\redkid engine\redkid engine\header.h(43): fatal error C1083: Не удается открыть файл включение: D3DX11tex.h: No such file or directory, (компилируется исходный файл BufferSRV_UAV.cpp)
+d:\users\dmitriy\documents\visual studio 2013\projects\старые проекты\2010\redkidproject\redkid engine\redkid engine\header.h(43): fatal error C1083: Не удается открыть файл включение: D3DX11tex.h: No such file or directory, (компилируется исходный файл AnimationFrame.cpp)
+d:\users\dmitriy\documents\visual studio 2013\projects\старые проекты\2010\redkidproject\redkid engine\redkid engine\header.h(43): fatal error C1083: Не удается открыть файл включение: D3DX11tex.h: No such file or directory, (компилируется исходный файл BufferSRV.cpp)
+d:\users\dmitriy\documents\visual studio 2013\projects\старые проекты\2010\redkidproject\redkid engine\redkid engine\header.h(43): fatal error C1083: Не удается открыть файл включение: D3DX11tex.h: No such file or directory, (компилируется исходный файл AABB.cpp)
+d:\users\dmitriy\documents\visual studio 2013\projects\старые проекты\2010\redkidproject\redkid engine\redkid engine\header.h(43): fatal error C1083: Не удается открыть файл включение: D3DX11tex.h: No such file or directory, (компилируется исходный файл BufferConstant.cpp)
+d:\users\dmitriy\documents\visual studio 2013\projects\старые проекты\2010\redkidproject\redkid engine\redkid engine\header.h(43): fatal error C1083: Не удается открыть файл включение: D3DX11tex.h: No such file or directory, (компилируется исходный файл Bone.cpp)
+d:\users\dmitriy\documents\visual studio 2013\projects\старые проекты\2010\redkidproject\redkid engine\redkid engine\header.h(43): fatal error C1083: Не удается открыть файл включение: D3DX11tex.h: No such file or directory, (компилируется исходный файл BufferUAV.cpp)
+  Camera.cpp
+  DXInput.cpp
+  FrustumBox.cpp
+  GameInterface.cpp
+  LofFile.cpp
+  ManagerResource.cpp
+  ObjectBase.cpp
+  ObjectLightDirection.cpp
+d:\users\dmitriy\documents\visual studio 2013\projects\старые проекты\2010\redkidproject\redkid engine\redkid engine\header.h(43): fatal error C1083: Не удается открыть файл включение: D3DX11tex.h: No such file or directory, (компилируется исходный файл DXInput.cpp)
+d:\users\dmitriy\documents\visual studio 2013\projects\старые проекты\2010\redkidproject\redkid engine\redkid engine\header.h(43): fatal error C1083: Не удается открыть файл включение: D3DX11tex.h: No such file or directory, (компилируется исходный файл GameInterface.cpp)
+d:\users\dmitriy\documents\visual studio 2013\projects\старые проекты\2010\redkidproject\redkid engine\redkid engine\header.h(43): fatal error C1083: Не удается открыть файл включение: D3DX11tex.h: No such file or directory, (компилируется исходный файл Camera.cpp)
+d:\users\dmitriy\documents\visual studio 2013\projects\старые проекты\2010\redkidproject\redkid engine\redkid engine\header.h(43): fatal error C1083: Не удается открыть файл включение: D3DX11tex.h: No such file or directory, (компилируется исходный файл ObjectLightDirection.cpp)
+d:\users\dmitriy\documents\visual studio 2013\projects\старые проекты\2010\redkidproject\redkid engine\redkid engine\header.h(43): fatal error C1083: Не удается открыть файл включение: D3DX11tex.h: No such file or directory, (компилируется исходный файл ManagerResource.cpp)
+d:\users\dmitriy\documents\visual studio 2013\projects\старые проекты\2010\redkidproject\redkid engine\redkid engine\header.h(43): fatal error C1083: Не удается открыть файл включение: D3DX11tex.h: No such file or directory, (компилируется исходный файл ObjectBase.cpp)
+d:\users\dmitriy\documents\visual studio 2013\projects\старые проекты\2010\redkidproject\redkid engine\redkid engine\header.h(43): fatal error C1083: Не удается открыть файл включение: D3DX11tex.h: No such file or directory, (компилируется исходный файл LofFile.cpp)
+d:\users\dmitriy\documents\visual studio 2013\projects\старые проекты\2010\redkidproject\redkid engine\redkid engine\header.h(43): fatal error C1083: Не удается открыть файл включение: D3DX11tex.h: No such file or directory, (компилируется исходный файл FrustumBox.cpp)
+  ObjectLightPoint.cpp
+  ObjectMesh.cpp
+  ObjectPhysX.cpp
+  ObjectPhysXConvexDinamicMesh.cpp
+  ObjectPhysXTriangleStaticMesh.cpp
+  ObjectPivot.cpp
+  Plane.cpp
+  PxTkStream.cpp
+d:\users\dmitriy\documents\visual studio 2013\projects\старые проекты\2010\redkidproject\redkid engine\redkid engine\pxtkstream.h(33): fatal error C1083: Не удается открыть файл включение: common/PxStream.h: No such file or directory, (компилируется исходный файл PxTkStream.cpp)
+  RedKid.cpp
+d:\users\dmitriy\documents\visual studio 2013\projects\старые проекты\2010\redkidproject\redkid engine\redkid engine\header.h(43): fatal error C1083: Не удается открыть файл включение: D3DX11tex.h: No such file or directory, (компилируется исходный файл Plane.cpp)
+d:\users\dmitriy\documents\visual studio 2013\projects\старые проекты\2010\redkidproject\redkid engine\redkid engine\header.h(43): fatal error C1083: Не удается открыть файл включение: D3DX11tex.h: No such file or directory, (компилируется исходный файл ObjectPhysXConvexDinamicMesh.cpp)
+d:\users\dmitriy\documents\visual studio 2013\projects\старые проекты\2010\redkidproject\redkid engine\redkid engine\header.h(43): fatal error C1083: Не удается открыть файл включение: D3DX11tex.h: No such file or directory, (компилируется исходный файл ObjectMesh.cpp)
+d:\users\dmitriy\documents\visual studio 2013\projects\старые проекты\2010\redkidproject\redkid engine\redkid engine\header.h(43): fatal error C1083: Не удается открыть файл включение: D3DX11tex.h: No such file or directory, (компилируется исходный файл ObjectLightPoint.cpp)
+d:\users\dmitriy\documents\visual studio 2013\projects\старые проекты\2010\redkidproject\redkid engine\redkid engine\header.h(43): fatal error C1083: Не удается открыть файл включение: D3DX11tex.h: No such file or directory, (компилируется исходный файл ObjectPivot.cpp)
+d:\users\dmitriy\documents\visual studio 2013\projects\старые проекты\2010\redkidproject\redkid engine\redkid engine\header.h(43): fatal error C1083: Не удается открыть файл включение: D3DX11tex.h: No such file or directory, (компилируется исходный файл ObjectPhysX.cpp)
+d:\users\dmitriy\documents\visual studio 2013\projects\старые проекты\2010\redkidproject\redkid engine\redkid engine\header.h(43): fatal error C1083: Не удается открыть файл включение: D3DX11tex.h: No such file or directory, (компилируется исходный файл RedKid.cpp)
+d:\users\dmitriy\documents\visual studio 2013\projects\старые проекты\2010\redkidproject\redkid engine\redkid engine\header.h(43): fatal error C1083: Не удается открыть файл включение: D3DX11tex.h: No such file or directory, (компилируется исходный файл ObjectPhysXTriangleStaticMesh.cpp)
+  RenderPool.cpp
+  ResBase.cpp
+  ResPhysXDinamicConvexMesh.cpp
+  ResMat.cpp
+  ResMatTexture.cpp
+  ResMesh.cpp
+  ResourceAnimationScelet.cpp
+  ResourceSceletMesh.cpp
+d:\users\dmitriy\documents\visual studio 2013\projects\старые проекты\2010\redkidproject\redkid engine\redkid engine\header.h(43): fatal error C1083: Не удается открыть файл включение: D3DX11tex.h: No such file or directory, (компилируется исходный файл ResMatTexture.cpp)
+d:\users\dmitriy\documents\visual studio 2013\projects\старые проекты\2010\redkidproject\redkid engine\redkid engine\header.h(43): fatal error C1083: Не удается открыть файл включение: D3DX11tex.h: No such file or directory, (компилируется исходный файл ResPhysXDinamicConvexMesh.cpp)
+d:\users\dmitriy\documents\visual studio 2013\projects\старые проекты\2010\redkidproject\redkid engine\redkid engine\header.h(43): fatal error C1083: Не удается открыть файл включение: D3DX11tex.h: No such file or directory, (компилируется исходный файл ResourceSceletMesh.cpp)
+d:\users\dmitriy\documents\visual studio 2013\projects\старые проекты\2010\redkidproject\redkid engine\redkid engine\header.h(43): fatal error C1083: Не удается открыть файл включение: D3DX11tex.h: No such file or directory, (компилируется исходный файл ResourceAnimationScelet.cpp)
+d:\users\dmitriy\documents\visual studio 2013\projects\старые проекты\2010\redkidproject\redkid engine\redkid engine\header.h(43): fatal error C1083: Не удается открыть файл включение: D3DX11tex.h: No such file or directory, (компилируется исходный файл RenderPool.cpp)
+d:\users\dmitriy\documents\visual studio 2013\projects\старые проекты\2010\redkidproject\redkid engine\redkid engine\header.h(43): fatal error C1083: Не удается открыть файл включение: D3DX11tex.h: No such file or directory, (компилируется исходный файл ResMat.cpp)
+d:\users\dmitriy\documents\visual studio 2013\projects\старые проекты\2010\redkidproject\redkid engine\redkid engine\header.h(43): fatal error C1083: Не удается открыть файл включение: D3DX11tex.h: No such file or directory, (компилируется исходный файл ResBase.cpp)
+d:\users\dmitriy\documents\visual studio 2013\projects\старые проекты\2010\redkidproject\redkid engine\redkid engine\header.h(43): fatal error C1083: Не удается открыть файл включение: D3DX11tex.h: No such file or directory, (компилируется исходный файл ResMesh.cpp)
+  ResourceSound.cpp
+  ResourceTexture.cpp
+  ResPhysXStaticTriangleMesh.cpp
+  ResSound.cpp
+  Scelet.cpp
+  SignMesh.cpp
+  System.cpp
+  TextureRTAndSRV.cpp
+d:\users\dmitriy\documents\visual studio 2013\projects\старые проекты\2010\redkidproject\redkid engine\redkid engine\header.h(43): fatal error C1083: Не удается открыть файл включение: D3DX11tex.h: No such file or directory, (компилируется исходный файл ResourceSound.cpp)
+d:\users\dmitriy\documents\visual studio 2013\projects\старые проекты\2010\redkidproject\redkid engine\redkid engine\header.h(43): fatal error C1083: Не удается открыть файл включение: D3DX11tex.h: No such file or directory, (компилируется исходный файл ResPhysXStaticTriangleMesh.cpp)
+d:\users\dmitriy\documents\visual studio 2013\projects\старые проекты\2010\redkidproject\redkid engine\redkid engine\header.h(43): fatal error C1083: Не удается открыть файл включение: D3DX11tex.h: No such file or directory, (компилируется исходный файл ResourceTexture.cpp)
+d:\users\dmitriy\documents\visual studio 2013\projects\старые проекты\2010\redkidproject\redkid engine\redkid engine\header.h(43): fatal error C1083: Не удается открыть файл включение: D3DX11tex.h: No such file or directory, (компилируется исходный файл ResSound.cpp)
+d:\users\dmitriy\documents\visual studio 2013\projects\старые проекты\2010\redkidproject\redkid engine\redkid engine\header.h(43): fatal error C1083: Не удается открыть файл включение: D3DX11tex.h: No such file or directory, (компилируется исходный файл TextureRTAndSRV.cpp)
+d:\users\dmitriy\documents\visual studio 2013\projects\старые проекты\2010\redkidproject\redkid engine\redkid engine\header.h(43): fatal error C1083: Не удается открыть файл включение: D3DX11tex.h: No such file or directory, (компилируется исходный файл Scelet.cpp)
+d:\users\dmitriy\documents\visual studio 2013\projects\старые проекты\2010\redkidproject\redkid engine\redkid engine\header.h(43): fatal error C1083: Не удается открыть файл включение: D3DX11tex.h: No such file or directory, (компилируется исходный файл System.cpp)
+d:\users\dmitriy\documents\visual studio 2013\projects\старые проекты\2010\redkidproject\redkid engine\redkid engine\header.h(43): fatal error C1083: Не удается открыть файл включение: D3DX11tex.h: No such file or directory, (компилируется исходный файл SignMesh.cpp)
+  TextureRT_SRV_UAV.cpp
+  TextureSRV_UAV.cpp
+  Thread.cpp
+d:\users\dmitriy\documents\visual studio 2013\projects\старые проекты\2010\redkidproject\redkid engine\redkid engine\header.h(43): fatal error C1083: Не удается открыть файл включение: D3DX11tex.h: No such file or directory, (компилируется исходный файл TextureRT_SRV_UAV.cpp)
+d:\users\dmitriy\documents\visual studio 2013\projects\старые проекты\2010\redkidproject\redkid engine\redkid engine\header.h(43): fatal error C1083: Не удается открыть файл включение: D3DX11tex.h: No such file or directory, (компилируется исходный файл TextureSRV_UAV.cpp)
+d:\users\dmitriy\documents\visual studio 2013\projects\старые проекты\2010\redkidproject\redkid engine\redkid engine\header.h(43): fatal error C1083: Не удается открыть файл включение: D3DX11tex.h: No such file or directory, (компилируется исходный файл Thread.cpp)

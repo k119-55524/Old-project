@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5CFD3742-EAE6-4A30-994C-99B54B706A0D}</ProjectGuid>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>RedKidDll</RootNamespace>
+    <ProjectName>RedKid3D Dll</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>E:\Дистрибутив\Программы\Программирование\NVidia\PhysX-3.1.2_PC_VC10_SDK_Core\SDKs\PhysXAPI;E:\Дистрибутив\Программы\Программирование\NVidia\PhysX-3.1.2_PC_VC10_SDK_Core\SDKs\PxFoundation;E:\Дистрибутив\Программы\Программирование\NVidia\PhysX-3.1.2_PC_VC10_SDK_Core\Samples\SampleBase;E:\Дистрибутив\Программы\Программирование\NVidia\PhysX-3.1.2_PC_VC10_SDK_Core\Samples\SampleFramework\framework\include;E:\Дистрибутив\Программы\Программирование\NVidia\PhysX-3.1.2_PC_VC10_SDK_Core\Samples\SampleFramework\renderer\include;E:\Дистрибутив\Программы\Программирование\NVidia\PhysX-3.1.2_PC_VC10_SDK_Core\Samples\PxToolkit\include;E:\Дистрибутив\Программы\Программирование\NVidia\PhysX-3.1.2_PC_VC10_SDK_Core\SDKs\PhysXVisualDebuggerSDK\PVDCommLayer\Public;E:\Дистрибутив\Программы\Программирование\NVidia\PhysX-3.1.2_PC_VC10_SDK_Core\SDKs\PxFoundation\internal\include;E:\Дистрибутив\Программы\Программирование\NVidia\PhysX-3.1.2_PC_VC10_SDK_Core\SDKs\PxTask\include;E:\Дистрибутив\Программы\Программирование\NVidia\PhysX-3.1.2_PC_VC10_SDK_Core\SDKs\PhysXProfileSDK\sdk\include;$(DXSDK_DIR)\Samples\C++\Effects11\Inc;$(DXSDK_DIR)Include;$(IncludePath);C:\Users\123\Documents\Visual Studio 2010\Projects\RedKid3D\RedKid3D Engine\RedKid Engine;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include</IncludePath>
+    <LibraryPath>E:\Дистрибутив\Программы\Программирование\NVidia\PhysX-3.1.2_PC_VC10_SDK_Core\SDKs\lib\win32;$(DXSDK_DIR)\Samples\C++\Effects11\Debug;$(DXSDK_DIR)Lib\x86;$(LibraryPath);C:\Users\123\Documents\Visual Studio 2010\Projects\RedKid3D\RedKid3D Editor\Debug;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(DXSDK_DIR)\Samples\C++\Effects11\Inc;$(DXSDK_DIR)Include;$(IncludePath);C:\Users\123\Documents\Visual Studio 2010\Projects\RedKid3D\RedKid3D Engine\RedKid Engine;E:\Дистрибутив\Программы\Программирование\NVidia\PhysX-3.1.2_PC_VC10_SDK_Core\SDKs\PhysXAPI;E:\Дистрибутив\Программы\Программирование\NVidia\PhysX-3.1.2_PC_VC10_SDK_Core\SDKs\PxFoundation;E:\Дистрибутив\Программы\Программирование\NVidia\PhysX-3.1.2_PC_VC10_SDK_Core\Samples\SampleBase;E:\Дистрибутив\Программы\Программирование\NVidia\PhysX-3.1.2_PC_VC10_SDK_Core\Samples\SampleFramework\framework\include;E:\Дистрибутив\Программы\Программирование\NVidia\PhysX-3.1.2_PC_VC10_SDK_Core\Samples\SampleFramework\renderer\include;E:\Дистрибутив\Программы\Программирование\NVidia\PhysX-3.1.2_PC_VC10_SDK_Core\Samples\PxToolkit\include;E:\Дистрибутив\Программы\Программирование\NVidia\PhysX-3.1.2_PC_VC10_SDK_Core\SDKs\PhysXVisualDebuggerSDK\PVDCommLayer\Public;E:\Дистрибутив\Программы\Программирование\NVidia\PhysX-3.1.2_PC_VC10_SDK_Core\SDKs\PxFoundation\internal\include;E:\Дистрибутив\Программы\Программирование\NVidia\PhysX-3.1.2_PC_VC10_SDK_Core\SDKs\PxTask\include;E:\Дистрибутив\Программы\Программирование\NVidia\PhysX-3.1.2_PC_VC10_SDK_Core\SDKs\PhysXProfileSDK\sdk\include</IncludePath>
+    <LibraryPath>E:\Дистрибутив\Программы\Программирование\NVidia\PhysX-3.1.2_PC_VC10_SDK_Core\SDKs\lib\win32;$(DXSDK_DIR)\Samples\C++\Effects11\Release;$(DXSDK_DIR)Lib\x86;$(LibraryPath);C:\Users\123\Documents\Visual Studio 2010\Projects\RedKid3D\RedKid3D Editor\Release;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_ITERATOR_DEBUG_LEVEL=0;_DEBUG;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>RedKid3D Engine.lib;d3dx11.lib;D3D11.lib;D3DX10d.lib;D3DX10.lib;d3dcompiler.lib;Effects11.lib;dxguid.lib;dxgi.lib;dinput8.lib;d2d1.lib;dwrite.lib;Foundation.lib;PhysX3Common.lib;PhysX3CharacterKinematic.lib;PhysX3Vehicle.lib;PhysX3Cooking_x86.lib;PhysX3_x86.lib;PhysX3Extensions.lib;LowLevel.lib;GeomUtils.lib;SceneQuery.lib;SimulationController.lib;PvdRuntime.lib;RepX3.lib;FoundationCHECKED.lib;PhysX3CHECKED_x86.lib;PhysX3CookingCHECKED_x86.lib;PhysX3CharacterKinematicCHECKED.lib;PhysX3ExtensionsCHECKED.lib;PhysX3VehicleCHECKED.lib;GeomUtilsCHECKED.lib;RepX3CHECKED.lib;RepXUpgrader3CHECKED.lib;PhysXProfileSDKCHECKED.lib;PxTaskCHECKED.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>RedKid3D Engine.lib;d3dx11.lib;D3D11.lib;D3DX10.lib;d3dcompiler.lib;Effects11.lib;dxguid.lib;dxgi.lib;dinput8.lib;d2d1.lib;dwrite.lib;Foundation.lib;PhysX3Common.lib;PhysX3CharacterKinematic.lib;PhysX3Vehicle.lib;PhysX3Cooking_x86.lib;PhysX3_x86.lib;PhysX3Extensions.lib;LowLevel.lib;GeomUtils.lib;SceneQuery.lib;SimulationController.lib;PvdRuntime.lib;RepX3.lib;FoundationCHECKED.lib;PhysX3CHECKED_x86.lib;PhysX3CookingCHECKED_x86.lib;PhysX3CharacterKinematicCHECKED.lib;PhysX3ExtensionsCHECKED.lib;PhysX3VehicleCHECKED.lib;GeomUtilsCHECKED.lib;RepX3CHECKED.lib;RepXUpgrader3CHECKED.lib;PhysXProfileSDKCHECKED.lib;PxTaskCHECKED.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header.h" />
+    <ClInclude Include="PhysXDefaultAllocator.h" />
+    <ClInclude Include="PhysXErrorCallback.h" />
+    <ClInclude Include="RedKid Dll.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AssemblyInfo.cpp" />
+    <ClCompile Include="PhysXDefaultAllocator.cpp" />
+    <ClCompile Include="PhysXErrorCallback.cpp" />
+    <ClCompile Include="RedKid Dll.cpp" />
+    <ClCompile Include="Stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.ico" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
